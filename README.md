@@ -2,7 +2,7 @@
 
 This project is a hybrid music recommendation system that combines Content-Based Filtering (CBF) and Collaborative Filtering (CF).
 
-## Key Features
+## 🚀 Key Features
 
 - **Emotion-Based Recommendations**: Generates recommendations based on musical emotion labels such as 'Happy', 'Sad', 'Calm', etc.
 - **Hybrid Model**: Utilizes CBF to generate initial recommendations based on a user's listening history and then refines these results using CF to provide a final recommendation list.
@@ -10,7 +10,7 @@ This project is a hybrid music recommendation system that combines Content-Based
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 /music_recommender_final/
@@ -44,7 +44,7 @@ This project is a hybrid music recommendation system that combines Content-Based
 
 ---
 
-## Installation & Setup
+## 🛠️ Installation
 
 1.  **Clone the Project**
     ```bash
@@ -65,7 +65,7 @@ This project is a hybrid music recommendation system that combines Content-Based
 
 ---
 
-## How to Use
+## ▶️ How to Use
 
 This project runs in two modes: **`build`** and **`recommend`**.
 
@@ -94,4 +94,4 @@ python main.py --mode recommend --user 1 --emotion Happy --top_k 20
 ```
 
 **Output:**
-The result is saved as a `.csv` file in `output/final_recommendations/`.
+The recommendation result will be saved as a `.csv` file in the `output/final_recommendations/` directory, with a name like `cf_rec_user_1_Happy_... .csv`.
