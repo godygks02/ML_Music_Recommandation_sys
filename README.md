@@ -54,6 +54,9 @@ This project is a hybrid music recommendation system that combines Content-Based
 
 2.  **Prepare the Data**
     - Download the dataset from Kaggle (You will provide the URL) and place the raw files into the `orig_data/` directory.
+        - train_dataset: https://www.kaggle.com/datasets/abdullahorzan/moodify-dataset (save to 'orig_data/train_set.csv')
+        - test_dataset: https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset/data (save to 'orig_data/test_set.csv)
+        - user_dataset: https://www.kaggle.com/datasets/andrewmvd/spotify-playlists (save to 'data/user_dataset.csv')
     - Run the scripts in the `preprocessing/` folder in sequence to process the raw data. This will generate the final dataset used by the recommendation models.
     - After preprocessing, place the final dataset files (e.g., `train_labeled_dataset.csv`, `user_dataset_filtered.csv`) into the `data/` directory.
 
