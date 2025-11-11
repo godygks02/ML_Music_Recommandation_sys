@@ -53,7 +53,7 @@ This project is a hybrid music recommendation system that combines Content-Based
     ```
 
 2.  **Prepare the Data**
-    - Download the dataset from Kaggle (You will provide the URL) and place the raw files into the `orig_data/` directory.
+    - Download the dataset from Kaggle and place the raw files into the `orig_data/` directory.
         - train_dataset: https://www.kaggle.com/datasets/abdullahorzan/moodify-dataset (save to 'orig_data/train_set.csv')
         - test_dataset: https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset/data (save to 'orig_data/test_set.csv)
         - user_dataset: https://www.kaggle.com/datasets/andrewmvd/spotify-playlists (save to 'data/user_dataset.csv')
