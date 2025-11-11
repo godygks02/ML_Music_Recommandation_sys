@@ -23,7 +23,7 @@ except spotipy.exceptions.SpotifyException as e:
     print("Please check if your CLIENT_ID and CLIENT_SECRET are correct.")
     exit()
 
-train_df = pd.read_csv('./orig_data/train_set.csv')
+train_df = pd.read_csv('../orig_data/train_set.csv')
 sample_df = train_df.copy()
 
 # Extract only the 'ID' part from the URI
@@ -89,7 +89,7 @@ else:
 # -----------------------------------------------------------------
 # 8. Save the final result to a CSV file
 # -----------------------------------------------------------------
-output_filename = 'train_data_last_with_metadata.csv'
+output_filename = '../data/train_data_last_with_metadata.csv'
 sample_df.to_csv(output_filename, index=False, encoding='utf-8-sig')
 
 print("\n--- 🎵 Final DataFrame with added info (top 5 rows) ---")

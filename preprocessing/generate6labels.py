@@ -7,10 +7,10 @@ import os
 # 4 labels => 6 labels
 
 # train data path
-FILE_NAME = './data/train_set_with_metadata.csv'
+FILE_NAME = '../data/train_set_with_metadata.csv'
 
 # output file path
-OUTPUT_FILE_NAME = 'labeled_dataset.csv'  
+OUTPUT_FILE_NAME = '../data/labeled_dataset.csv'  
 
 # select features to use clustering
 feature_cols = ['duration_ms', 'danceability', 'energy', 'loudness',

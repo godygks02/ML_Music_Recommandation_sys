@@ -12,13 +12,13 @@ import matplotlib.pyplot as plt
 '''
 
 # train data path
-TRAIN_FILE_NAME = './data/labeled_dataset.csv'
+TRAIN_FILE_NAME = '../data/labeled_dataset.csv'
 
 # test(for predict) data path
-TEST_FILE_NAME = './data/test_set.csv' 
+TEST_FILE_NAME = '../data/test_set.csv' 
 
 # output file path
-OUTPUT_FILE_NAME = './data/test_set_with_label_predictions.csv'
+OUTPUT_FILE_NAME = '../data/test_set_with_label_predictions.csv'
 
 # select features (drop track_name, artists, id, etc..)
 feature_cols = ['duration_ms', 'danceability', 'energy', 'loudness',
